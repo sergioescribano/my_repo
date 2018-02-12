@@ -1,0 +1,28 @@
+[1mdiff --git a/calculator.html b/calculator.html[m
+[1mindex 7559366..58682ed 100644[m
+[1m--- a/calculator.html[m
+[1m+++ b/calculator.html[m
+[36m@@ -12,6 +12,14 @@[m [mnum.value = Math.pow(num.value, 3);[m
+ [m
+ }[m
+ [m
+[32m+[m[32mfunction cube2() {[m
+[32m+[m
+[32m+[m[32mvar num = document.getElementById("n1");[m
+[32m+[m
+[32m+[m[32mnum.value = Math.pow(num.value, 4);[m
+[32m+[m
+[32m+[m[32m}[m
+[32m+[m
+ </script>[m
+ [m
+ </head>[m
+[36m@@ -24,6 +32,8 @@[m [mNumber:[m
+ [m
+ <button onclick="cube()"> x^3 </button>[m
+ [m
+[32m+[m[32m<button onclick="cube2()"> x^4 </button>[m
+[32m+[m
+ </body>[m
+ [m
+ <h1>Calculadora de ……Sergio Escribano Jaén……</h1>[m
